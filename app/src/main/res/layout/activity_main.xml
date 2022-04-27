@@ -45,4 +45,12 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView_picture"
         app:layout_constraintVertical_bias="0.0" />
 
+    <ImageView
+        android:id="@+id/imageView_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="388dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
