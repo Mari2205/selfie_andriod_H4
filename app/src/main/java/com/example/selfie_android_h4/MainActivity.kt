@@ -78,8 +78,8 @@ class MainActivity : AppCompatActivity() {
         val savedImageURL: String = MediaStore.Images.Media.insertImage(
             contentResolver,
             bitmap_image,
-            "Bird",                 // TODO: genreate an better name
-            "Image of bird"    // TODO: genreate better description or dont have one
+            "Image",                      // TODO: genreate an better name
+            "Image form emlutaor"    // TODO: genreate better description or dont have one
         )
     }
 }
