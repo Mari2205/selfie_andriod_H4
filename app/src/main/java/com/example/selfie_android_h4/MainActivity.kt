@@ -70,23 +70,16 @@ class MainActivity : AppCompatActivity() {
 
     /**
      * This metode save an bitmap/image to android gallery
-     * @author Marius M. Møller
      * @param view er en knap(save btn) fra xml'en(ui) code
+     * @see https://www.android--code.com/2015/09/android-how-to-save-image-to-gallery.html
     */
-    fun saveImage(view: View){
-//
-////        val imageView_t = findViewById<ImageView>(R.id.imageView_test)
-////        setPic()
-////        var temp = createImageFile()
-
+    fun saveImage(view: View) {
+        // TODO: maybe remove variables
         val savedImageURL: String = MediaStore.Images.Media.insertImage(
             contentResolver,
             bitmap_image,
-            "Bird",
-            "Image of bird"
+            "Bird",                 // TODO: genreate an better name
+            "Image of bird"    // TODO: genreate better description or dont have one
         )
-
-
-        val t = ""
     }
 }
